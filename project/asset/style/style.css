@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron{
+    width: 100%;
+    background-image: url(../img/jumbotron.png);    
+    background-size: cover;
+    height: 550px;
+    color:white;
+}
+
+.jumbotron h1{
+    padding-top: 200px;
+    padding-left:20px;
+    font-size: 4em;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.jumbotron span{
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.header {
+    display: inline;
+}
+nav{
+    background-color: #006266;
+    padding: 5px;
+    position: sticky;
+    top:0;
+    
+}
+nav li{
+  
+    list-style-type: none;
+   
+    color:white;
+    font-size: 18px;
+    display: inline;
+    padding-right: 20px;
+ }
+
+ nav ul{
+     padding:20px 20px;
+     
+ }
+nav a{
+    margin: 10px;
+    color:#fcf8f8;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#d1fd59;
+    /* text-decoration: underline; */
+    padding-bottom: 2px;
+}
+
+
+
+ .card{
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+     padding:20px;
+    margin: 50px 0px;
+ }
+main{
+    padding:0 20px;
+   overflow: auto;
+}
+ .content{
+  
+     width:75%;
+     float: left;
+ }
+ 
+ .content h2{
+     padding-bottom: 10px;;
+ }
+ .card p{
+     text-align: justify;
+ }
+
+ aside{
+     float: right;
+     width: 23%;
+     /* padding-right: 20px; */
+ }
+
+ .profile{
+     text-align: center;
+     margin:0 auto;
+     margin-top:50px;
+     
+ }
+
+ #coviddata{
+     height: 500px;
+ }
+
+ .profile img{
+     width:200px;
+     border-radius: 100px;
+     border: 10px solid #006266;
+ }
+
+ .profile h2{
+     color: black;
+     padding-bottom: 20px;;
+ }
+
+ .data{
+     margin-top: 10px;
+ }
+ .data h3,h4{
+     font-weight: 500;
+ }
+ .pencegahan{
+     width: 100%;
+     padding:20px 20px;
+     height: 300px;
+     display: inline-block;
+     background-color: #a3cb38;
+  
+ }
+
+ .pencegahan h2{
+     margin-bottom: 20px;
+     color:white;
+     text-shadow: 1px 1px 1px gray;
+ }
+ footer p{
+     padding:20px;
+     background-color:#006266 ;
+     text-align: center;
+     color: white;
+ }
+
+ .flex-container{
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+   
+ 
+ }
+
+ .item{
+     flex-basis: 1;
+     position: relative;
+    margin-left: 20px;
+    
+ 
+   
+ }
+
+ .item img{
+     width: 200px;
+     display: block;
+     /* border: 2px solid white; */
+ }
+
+ .overlay {
+    position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  }
+
+  .item:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+  
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+ th,
+td {
+   text-align: left;
+   padding: 16px;
+}
+
+th {
+    background-color: #006266;
+    color: white;
+ }
+  
+ tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }
+
+
+
+.list{
+    overflow: scroll;
+}

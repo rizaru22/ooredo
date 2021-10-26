@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+   .profile{
+    margin-top:0;
+   }
+
+
+    .pencegahan{
+        margin-top: 20px;
+        height: auto;
+    }
+    .item img{
+        width: 100px;
+       
+    }
+
+    .overlay{
+        padding: 27px;
+    }
+
+    .overlay h4{
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+ }
+
+ @media screen and (max-width: 1000px) {
+
+    .pencegahan{
+        height: auto;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .item{
+        margin-bottom: 10px;
+    }
+ }
+ 
